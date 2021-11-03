@@ -13,10 +13,9 @@ import com.popbill.api.CashbillService;
 import com.popbill.api.cashbill.CashbillServiceImp;
 
 import kr.co.linkhub.autoconfigure.properties.CashbillProperties;
-import kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties;
 
 @Configuration
-@EnableConfigurationProperties(TaxinvoiceProperties.class)
+@EnableConfigurationProperties(CashbillProperties.class)
 public class CashbillAutoConfiguration {
     @Autowired
     private CashbillProperties cashbillProperties;
