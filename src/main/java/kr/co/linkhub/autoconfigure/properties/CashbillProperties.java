@@ -6,9 +6,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 //configuration processor는 @ConfigurationProperties를 가지고 있는 모든 클래스와 메소드를 스캔함
 //이를 통해서 configuration parameter에 접근하고 ,configuraton metadata를 생성함
-@ConfigurationProperties(prefix = "popbill.taxinvoice")
-public class TaxinvoiceProperties {
-    private static final Log logger = LogFactory.getLog(TaxinvoiceProperties.class);
+@ConfigurationProperties(prefix = "popbill.cashbill")
+public class CashbillProperties {
+    private static final Log logger = LogFactory.getLog(CashbillProperties.class);
 
     private String linkid;
     private String secretkey;
