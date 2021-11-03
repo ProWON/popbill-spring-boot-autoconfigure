@@ -1,4 +1,4 @@
-package kr.co.linkhub.autoconfigure;
+package kr.co.linkhub.autoconfigure.properties;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

@@ -12,8 +12,9 @@ import org.springframework.context.annotation.Lazy;
 import com.popbill.api.TaxinvoiceService;
 import com.popbill.api.taxinvoice.TaxinvoiceServiceImp;
 
+import kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties;
+
 @Configuration
-@ConditionalOnClass({ TaxinvoiceService.class })
 @EnableConfigurationProperties(TaxinvoiceProperties.class)
 public class TaxinvoiceAutoConfiguration {
     @Autowired
@@ -26,6 +27,7 @@ public class TaxinvoiceAutoConfiguration {
     // application.properties에도 true 설정하면 없어도 지연로딩 됨
     @Lazy
     @Bean(name = "TaxinvoiceService")
+    @ConditionalOnClass({ TaxinvoiceService.class })
     public TaxinvoiceService taxinvoiceServiceConfig() {
         logger.info("POPBiLL Initializing TaxinvoiceService");
         TaxinvoiceService taxinvoiceService;
