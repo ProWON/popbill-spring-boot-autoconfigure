@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "popbill.cashbill",
+      "type": "kr.co.linkhub.autoconfigure.properties.CashbillProperties",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.taxinvoice",
+      "type": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "popbill.cashbill.iprestrectonoff",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.cashbill.linkid",
+      "type": "java.lang.String",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.cashbill.secretkey",
+      "type": "java.lang.String",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.cashbill.test",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.cashbill.usegaip",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.cashbill.uselocaltimeyn",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.CashbillProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.iprestrectonoff",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.linkid",
+      "type": "java.lang.String",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.secretkey",
+      "type": "java.lang.String",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.test",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.usegaip",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    },
+    {
+      "name": "popbill.taxinvoice.uselocaltimeyn",
+      "type": "java.lang.Boolean",
+      "sourceType": "kr.co.linkhub.autoconfigure.properties.TaxinvoiceProperties"
+    }
+  ],
+  "hints": []
+}

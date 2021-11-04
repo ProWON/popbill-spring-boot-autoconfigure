@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+kr.co.linkhub.autoconfigure.TaxinvoiceAutoConfiguration,\
+kr.co.linkhub.autoconfigure.CashbillAutoConfiguration
